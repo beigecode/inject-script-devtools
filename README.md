@@ -1,3 +1,4 @@
+```javascript
 window.jsopen = function(path) {
   var el = document.createElement('script');
   if(path.indexOf('http') == 0) {
@@ -7,6 +8,7 @@ window.jsopen = function(path) {
   }
   document.head.appendChild(el);
 }
+```
 
  Paste the following script to Chrome devTools
  and pass the missing part of the needed path as the function argument
